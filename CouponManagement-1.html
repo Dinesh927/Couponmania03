@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CouponManagement-1</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<style>
+		body {
+			font-family: system-ui;
+		}
+	</style>
+</head>
+<body>
+		<div class="flex flex-col bg-[#FFFFFF]">
+		<div class="self-stretch bg-[#FFFFFF] h-[1031px]">
+			<div class="flex justify-between items-center self-stretch pt-[16px] pb-[16px] pl-[32px] pr-[32px] border-b-[1px] border-solid border-b-[#E4E4E7]">
+				<img
+					src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/edef1d5e-ce92-4475-9e2f-796dd38bdc56" 
+					class="w-[24px] h-[30px] mr-[108px] object-fill"
+				/>
+				<div class="flex shrink-0 items-start pl-[288px] pr-[288px]">
+					<span class="text-[#09090B] text-[14px] font-bold mt-[10px] mb-[10px] ml-[16px] mr-[32px]" >
+						Dashboard
+					</span>
+					<button class="flex flex-col shrink-0 items-start bg-[#F4F4F5] text-left pt-[14px] pb-[14px] pl-[17px] pr-[17px] mr-[16px] rounded-[4px] border-0"
+						onclick="alert('Pressed!')"}>
+						<span class="text-[#09090B] text-[14px] font-bold" >
+							Coupon Management
+						</span>
+					</button>
+					<span class="text-[#09090B] text-[14px] font-bold mt-[14px] mb-[14px] ml-[17px] mr-[17px]" >
+						User Management
+					</span>
+				</div>
+				<div class="flex shrink-0 items-center">
+					<img
+						src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/382de8c9-acec-4a9f-8b35-414756c85b5c" 
+						class="w-[24px] h-[24px] mr-[24px] object-fill"
+					/>
+					<img
+						src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/84e344f5-f816-4307-a350-9da8c8bff1bf" 
+						class="w-[24px] h-[24px] mr-[24px] object-fill"
+					/>
+					<img
+						src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/45f22011-e27a-48a9-b8dc-05575ec57283" 
+						class="w-[36px] h-[36px] rounded-[400px] object-fill"
+					/>
+				</div>
+			</div>
+			<div class="flex flex-col items-center self-stretch bg-[#274754] pt-[64px] pb-[64px]">
+				<span class="text-[#FFFFFF] text-[48px] font-bold" >
+					Coupon Management
+				</span>
+			</div>
+			<div class="flex items-start self-stretch">
+				<div class="flex flex-col shrink-0 items-start pt-[48px] pb-[268px]">
+					<div class="flex flex-col items-start mb-[32px] ml-[32px] mr-[32px]">
+						<span class="text-[#09090B] text-[14px] font-bold mb-[5px] mr-[197px]" >
+							Brand
+						</span>
+						<button class="flex items-start bg-[#FFFFFF] text-left pt-[10px] pb-[10px] pl-[12px] pr-[12px] rounded-[6px] border-[1px] border-solid border-[#E4E4E7]"
+							onclick="alert('Pressed!')"}>
+							<span class="text-[#09090B] text-[14px] mr-[150px]" >
+								Select
+							</span>
+							<img
+								src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/40b4a3f6-c781-4dcb-9661-809f04d2f60e" 
+								class="w-[20px] h-[20px] object-fill"
+							/>
+						</button>
+					</div>
+					<div class="flex flex-col items-start mb-[32px] ml-[32px] mr-[32px]">
+						<span class="text-[#09090B] text-[14px] font-bold mb-[5px] mr-[147px]" >
+							Coupon Type
+						</span>
+						<button class="flex items-start bg-[#FFFFFF] text-left pt-[10px] pb-[10px] pl-[12px] pr-[12px] rounded-[6px] border-[1px] border-solid border-[#E4E4E7]"
+							onclick="alert('Pressed!')"}>
+							<span class="text-[#09090B] text-[14px] mr-[150px]" >
+								Select
+							</span>
+							<img
+								src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0d8d06d5-775a-4a95-8c96-3cad458b8722" 
+								class="w-[20px] h-[20px] object-fill"
+							/>
+						</button>
+					</div>
+					<div class="flex flex-col items-start ml-[32px] mr-[32px]">
+						<span class="text-[#09090B] text-[14px] font-bold mb-[16px]" >
+							Coupon Value
+						</span>
+						<div class="flex flex-col items-start bg-[#F4F4F5] pr-[212px] mb-[16px] rounded-[400px]">
+							<img
+								src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/c47382a6-c966-41ff-b45f-c00b1ae0edf0" 
+								class="w-[22px] h-[8px] rounded-[400px] object-fill"
+							/>
+						</div>
+						<div class="flex flex-col items-start bg-[#FFFFFF] pt-[10px] pb-[11px] pl-[12px] pr-[215px] rounded-[6px] border-[1px] border-solid border-[#E4E4E7]">
+							<span class="text-[#71717A] text-[14px]" >
+								0
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="flex-1 bg-[#F2F2F780] pt-[48px] pb-[48px]">
+					<div class="flex justify-between items-start self-stretch mb-[32px] ml-[32px] mr-[32px]">
+						<div class="flex shrink-0 items-start bg-[#F4F4F5] p-[4px] rounded-[8px]">
+							<button class="flex flex-col shrink-0 items-start bg-[#FFFFFF] text-left pt-[6px] pb-[6px] pl-[12px] pr-[12px] rounded-[4px] border-0" style="boxShadow: 0px 1px 2px #0000000D"
+								onclick="alert('Pressed!')"}>
+								<span class="text-[#09090B] text-[14px] font-bold" >
+									Coupons Buyer Waiting
+								</span>
+							</button>
+							<span class="text-[#71717A] text-[14px] font-bold mt-[6px] mb-[6px] ml-[12px] mr-[12px]" >
+								New Coupon Requests
+							</span>
+							<span class="text-[#71717A] text-[14px] font-bold mt-[6px] mb-[6px] ml-[12px] mr-[12px]" >
+								All Coupons
+							</span>
+						</div>
+						<div class="flex flex-col shrink-0 items-start bg-[#FFFFFF] pt-[10px] pb-[11px] pl-[16px] pr-[228px] rounded-[6px] border-[1px] border-solid border-[#E4E4E7]">
+							<span class="text-[#71717A] text-[14px] font-bold" >
+								Search...
+							</span>
+						</div>
+					</div>
+					<div class="flex items-start self-stretch bg-[#F2F2F7] mb-[120px] ml-[32px] mr-[32px] rounded-[16px]" style="boxShadow: 0px 1px 2px #0000000D">
+						<div class="flex-1 bg-[#FFFFFF] pt-[24px] pb-[24px] rounded-[16px] border-[1px] border-solid border-[#E4E4E7]">
+							<div class="flex flex-col items-start self-stretch mb-[16px] ml-[24px] mr-[24px]">
+								<div class="flex items-start self-stretch mb-[6px]">
+									<div class="flex flex-1 items-center mr-[12px]">
+										<button class="flex flex-col shrink-0 items-start bg-transparent text-left pt-[6px] pb-[6px] pl-[8px] pr-[8px] mr-[8px] rounded-[4px] border-[1px] border-solid border-[#E4E4E7]"
+											onclick="alert('Pressed!')"}>
+											<img
+												src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/71b6f34f-8649-4cf1-bd7a-e7d8876d7b29" 
+												class="w-[8px] h-[12px] rounded-[4px] object-fill"
+											/>
+										</button>
+										<span class="text-[#09090B] text-[18px] font-bold mr-[409px]" >
+											Swiggy
+										</span>
+									</div>
+									<span class="text-[#09090B] text-[18px] font-bold" >
+										₹ 1,000
+									</span>
+								</div>
+								<div class="flex flex-col items-start bg-[#18181B] pt-[3px] pb-[4px] pl-[12px] pr-[12px] rounded-[400px]">
+									<span class="text-[#FAFAFA] text-[12px] font-bold" >
+										Pending Approval - Buyer
+									</span>
+								</div>
+							</div>
+							<div class="self-stretch ml-[24px] mr-[24px]">
+								<div class="flex items-center self-stretch mb-[8px]">
+									<span class="flex-1 text-[#09090B] text-[12px]" >
+										Listing Id
+									</span>
+									<span class="text-[#09090B] text-[14px] font-bold" >
+										#427948
+									</span>
+								</div>
+								<div class="flex items-center self-stretch mb-[8px]">
+									<span class="flex-1 text-[#09090B] text-[12px]" >
+										Listing Date
+									</span>
+									<span class="text-[#09090B] text-[14px] font-bold" >
+										14 Apr 2025
+									</span>
+								</div>
+								<div class="flex items-center self-stretch mb-[8px]">
+									<span class="flex-1 text-[#09090B] text-[12px]" >
+										Expiry Date
+									</span>
+									<span class="text-[#09090B] text-[14px] font-bold" >
+										14 Apr 2026
+									</span>
+								</div>
+								<div class="flex items-center self-stretch mb-[8px]">
+									<span class="flex-1 text-[#09090B] text-[12px]" >
+										Coupon Code
+									</span>
+									<span class="text-[#09090B] text-[14px] font-bold" >
+										1007002116445791
+									</span>
+								</div>
+								<div class="flex items-center self-stretch mb-[8px]">
+									<span class="flex-1 text-[#09090B] text-[12px]" >
+										Pin
+									</span>
+									<span class="text-[#09090B] text-[14px] font-bold" >
+										292388
+									</span>
+								</div>
+								<div class="flex items-center self-stretch">
+									<span class="flex-1 text-[#09090B] text-[12px]" >
+										Payout Amount
+									</span>
+									<span class="text-[#09090B] text-[14px] font-bold" >
+										₹ 700
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="flex flex-col shrink-0 items-start pt-[24px] pb-[24px]">
+							<div class="flex flex-col items-start mb-[24px] ml-[24px] mr-[24px]">
+								<div class="flex items-start pr-[2px] mb-[8px] border-b-[1px] border-solid border-b-[#E4E4E7]">
+									<div class="flex shrink-0 items-center mr-[16px]">
+										<button class="flex flex-col shrink-0 items-start bg-[#F2F2F7] text-left p-[8px] mr-[6px] rounded-[400px] border-0"
+											onclick="alert('Pressed!')"}>
+											<img
+												src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/65061794-469c-430d-b065-e5c836066c22" 
+												class="w-[20px] h-[20px] object-fill"
+											/>
+										</button>
+										<div class="flex flex-col shrink-0 items-start">
+											<span class="text-[#09090B] text-[12px] font-bold" >
+												Yuvaraj V
+											</span>
+											<div class="flex items-center">
+												<img
+													src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d8a99a1b-d484-4312-b834-f05e74fe48ff" 
+													class="w-[12px] h-[12px] mr-[6px] object-fill"
+												/>
+												<span class="text-[#09090B] text-[12px]" >
+													4.5
+												</span>
+											</div>
+										</div>
+									</div>
+									<span class="text-[#71717A] text-[12px] mt-[20px] mb-[8px]" >
+										Seller
+									</span>
+								</div>
+								<div class="flex items-center">
+									<span class="text-[#09090B] text-[12px] mr-[10px]" >
+										Sold: 37 Coupons
+									</span>
+									<span class="text-[#71717A] text-[12px] mr-[12px]" >
+										|
+									</span>
+									<span class="text-[#09090B] text-[12px]" >
+										Issues: 1 Coupon
+									</span>
+								</div>
+							</div>
+							<div class="flex flex-col items-start mb-[24px] ml-[24px] mr-[24px]">
+								<div class="flex items-start pr-[2px] mb-[8px] border-b-[1px] border-solid border-b-[#E4E4E7]">
+									<div class="flex shrink-0 items-center mr-[16px]">
+										<button class="flex flex-col shrink-0 items-start bg-[#F2F2F7] text-left p-[8px] mr-[6px] rounded-[400px] border-0"
+											onclick="alert('Pressed!')"}>
+											<img
+												src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/02097ebd-75fa-48cb-be5c-b3c336ae20de" 
+												class="w-[20px] h-[20px] object-fill"
+											/>
+										</button>
+										<div class="flex flex-col shrink-0 items-start">
+											<span class="text-[#09090B] text-[12px] font-bold" >
+												Yuvaraj V
+											</span>
+											<div class="flex items-center">
+												<img
+													src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/1fa96a32-6842-4a8d-a437-4f5c22033267" 
+													class="w-[12px] h-[12px] mr-[6px] object-fill"
+												/>
+												<span class="text-[#09090B] text-[12px]" >
+													4.5
+												</span>
+											</div>
+										</div>
+									</div>
+									<span class="text-[#71717A] text-[12px] mt-[20px] mb-[8px]" >
+										Buyer
+									</span>
+								</div>
+								<div class="flex items-center">
+									<span class="text-[#09090B] text-[12px] mr-[11px]" >
+										Bought: 12 Coupons
+									</span>
+									<span class="text-[#71717A] text-[12px] mr-[12px]" >
+										|
+									</span>
+									<span class="text-[#09090B] text-[12px]" >
+										Issues: 1 Coupon
+									</span>
+								</div>
+							</div>
+							<div class="flex items-start ml-[24px] mr-[24px]">
+								<button class="flex flex-col shrink-0 items-start bg-[#18181B] text-left pt-[14px] pb-[14px] pl-[21px] pr-[21px] mr-[16px] rounded-[8px] border-0"
+									onclick="alert('Pressed!')"}>
+									<span class="text-[#FAFAFA] text-[14px] font-bold" >
+										Approve
+									</span>
+								</button>
+								<button class="flex flex-col shrink-0 items-start bg-transparent text-left pt-[10px] pb-[10px] pl-[29px] pr-[29px] rounded-[8px] border-[1px] border-solid border-[#E4E4E7]"
+									onclick="alert('Pressed!')"}>
+									<span class="text-[#09090B] text-[14px] font-bold" >
+										Reject
+									</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="flex justify-center items-start self-stretch ml-[32px] mr-[32px]">
+						<span class="text-[#09090B] text-[14px] font-bold mt-[10px] mb-[10px] ml-[16px] mr-[20px]" >
+							Previous
+						</span>
+						<button class="flex flex-col shrink-0 items-start bg-transparent text-left pt-[15px] pb-[15px] pl-[17px] pr-[17px] mr-[4px] rounded-[8px] border-[1px] border-solid border-[#E4E4E7]"
+							onclick="alert('Pressed!')"}>
+							<span class="text-[#09090B] text-[12px] font-bold" >
+								1
+							</span>
+						</button>
+						<span class="text-[#09090B] text-[12px] font-bold mt-[15px] mb-[15px] ml-[17px] mr-[21px]" >
+							2
+						</span>
+						<span class="text-[#09090B] text-[12px] font-bold mt-[15px] mb-[15px] ml-[16px] mr-[20px]" >
+							3
+						</span>
+						<img
+							src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/8f8bb420-7229-42e8-8d50-246e69427d78" 
+							class="w-[16px] h-[16px] mt-[12px] mb-[12px] ml-[12px] mr-[16px] object-fill"
+						/>
+						<div class="flex shrink-0 items-center pt-[10px] pb-[10px] pl-[16px] pr-[16px] rounded-[8px]">
+							<span class="text-[#09090B] text-[14px] font-bold mr-[11px]" >
+								Next
+							</span>
+							<img
+								src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/348476a9-1972-4785-aed9-a2e9ee2198bd" 
+								class="w-[16px] h-[16px] object-fill"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="flex flex-col self-stretch bg-[#FFFFFF] pt-[30px] pb-[30px] border-t-[1px] border-solid border-t-[#E3E3E6]">
+				<div class="flex flex-col items-center self-stretch mb-[16px] ml-[80px] mr-[80px]">
+					<img
+						src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f2c6eefd-e38a-430f-a1ca-b12551b507cc" 
+						class="w-[49px] h-[60px] object-fill"
+					/>
+				</div>
+				<span class="text-[#000000] text-[16px] text-center ml-[80px] mr-[80px]" >
+					© 2025 Couponmania Inc.
+				</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
